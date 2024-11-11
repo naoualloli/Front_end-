@@ -1,0 +1,55 @@
+.article{
+    color:red;
+}
+.header{
+    height: 60px;
+    background-color:palevioletred;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 0px;
+}
+nav ul li{
+    padding: 0px 70px;
+    color: beige;
+    font-weight: 600;
+}
+nav ul li:hover{
+    border-bottom: 2px solid beige;
+}
+.content{
+    height: 100vh;
+    background: url(banniere_La_lavatere_rose_une_fleur_delicate_et_romantique4.webp) center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+} 
+
+.content .article{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(53, 45, 45);
+    position: relative;
+}
+.footer{
+    height: 50px;
+    background: rgb(53, 45, 45);
+    color: beige;
+}
+.footer p{
+     font-size: 25px;
+    color: black;
+    margin-bottom: 50px ;
+    font-style: italic;
+    text-shadow: 3px 3px 4px palevioletred;
+    margin-left: 500px;
+}
+   
